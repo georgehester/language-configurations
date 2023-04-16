@@ -12,3 +12,8 @@
 
 **File:** .rustfmt.toml <br>
 **File Location:** In either the home directory `~` or the rustfmt config folder `~/.config/rustfmt`
+
+### VSCode
+
+**File:** settings.json <br>
+**File Location:** Place into VSCode settings location, file paths may need to be updated where required
