@@ -13,7 +13,7 @@
 ### Rust
 
 **File:** .rustfmt.toml <br>
-**File Location:** In either the home directory `~` or the rustfmt config folder `~/.config/rustfmt`
+**File Location:** In either the home directory `~` or the rustfmt config folder `~/.config/rustfmt` <br>
 **Options:** [Rustfmt Configuration](https://rust-lang.github.io/rustfmt/?version=v1.5.1) [**Archived**](https://web.archive.org/web/20230416173244/https://rust-lang.github.io/rustfmt/)
 
 ### VSCode
@@ -23,5 +23,5 @@
 
 **File:** extensions.sh <br>
 **Prerequisites:** `chmod u+x extensions.sh` to allow the current user to execute the file as a shell script <br>
-**Use:** To install all the extensions listed in the file run it using `./extensions.sh`
+**Use:** To install all the extensions listed in the file run it using `./extensions.sh` <br>
 **Creation:** To generate this file from the current VSCode run `code --list-extensions | xargs -L 1 echo code --install-extension > extensions.sh`, a file called extensions.sh will be produced in the currect directory
