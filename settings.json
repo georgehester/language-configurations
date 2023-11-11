@@ -1,50 +1,9 @@
 {
-    "window.zoomLevel": -0.5,
-    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
-    "editor.fontFamily": "Consolas",
-    "editor.fontSize": 12,
-    "editor.lineHeight": 0,
-    "editor.lineNumbers": "on",
-    "editor.tabSize": 4,
-    "editor.detectIndentation": false,
-    "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
-    "editor.find.addExtraSpaceOnTop": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.suggest.showStatusBar": true,
-    "diffEditor.wordWrap": "on",
-    "workbench.colorCustomizations": {
-        "editorBracketHighlight.foreground1": "#FFD700",
-        "editorBracketHighlight.foreground2": "#DA70D6",
-        "editorBracketHighlight.foreground3": "#87CEFA"
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
     },
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.tree.indent": 16,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.preferredDarkColorTheme": "Atom One Dark",
-    "workbench.colorTheme": "Aura Dark",
-    "workbench.iconTheme": "eq-material-theme-icons-palenight",
-    "workbench.editorAssociations": {
-        "*.ebu": "hexEditor.hexedit",
-        "*.ebc": "hexEditor.hexedit",
-        "*.ebcc": "hexEditor.hexedit"
-    },
-    "screencastMode.fontSize": 32,
-    "screencastMode.mouseIndicatorSize": 32,
-    "terminal.integrated.fontFamily": "Monaco",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "explorer.compactFolders": false,
-    "explorer.openEditors.visible": 0,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.associations": {
-        "*.ccjs": "javascript",
-        ".clang-format": "plaintext",
-        "*.ebu": "plaintext",
-        "*.ebf": "plaintext",
-        "*.ebc": "plaintext",
-        "*.pgm": "plaintext",
-        "*.ebcc": "plaintext"
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
     },
     "[json]": {
         "editor.quickSuggestions": {
@@ -52,28 +11,116 @@
         },
         "editor.suggest.insertMode": "replace"
     },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[yaml]": {
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "C_Cpp.clang_format_path": "/opt/homebrew/bin/clang-format",
+    "C_Cpp.clang_format_style": "file:/Users/george/.format/.clang-format",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/**"
+    ],
+    "diffEditor.wordWrap": "on",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoClosingComments": "languageDefined",
+    "editor.autoClosingDelete": "auto",
+    "editor.autoClosingOvertype": "auto",
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.autoIndent": "full",
+    "editor.autoSurround": "languageDefined",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "editor.detectIndentation": false,
+    "editor.find.addExtraSpaceOnTop": true,
+    "editor.fontFamily": "Monaspace Neon Var",
+    "editor.fontLigatures": "'ss01', 'ss03', 'ss07'",
+    "editor.fontSize": 12,
+    "editor.fontWeight": "600",
+    "editor.formatOnSave": true,
+    "editor.lineHeight": 0,
+    "editor.lineNumbers": "on",
+    "editor.suggest.showStatusBar": true,
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "editor.wordWrapColumn": 80,
+    "explorer.compactFolders": false,
+    "explorer.openEditors.visible": 0,
+    "files.associations": {
+        "*.ccjs": "javascript",
+        ".clang-format": "plaintext"
+    },
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "hexeditor.showDecodedText": true,
+    "java.format.settings.profile": "style",
+    "java.format.settings.url": "~/.format/java-format-config.xml",
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
     "javascript.format.semicolons": "insert",
+    "redhat.telemetry.enabled": false,
+    "rust-analyzer.rustfmt.rangeFormatting.enable": true,
+    "screencastMode.fontSize": 32,
+    "screencastMode.mouseIndicatorSize": 32,
+    "sql-formatter.dialect": "pl/sql",
+    "sql-formatter.linesBetweenQueries": 1,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.fontFamily": "Monaco",
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
     "typescript.format.semicolons": "insert",
-    "C_Cpp.clang_format_path": "/opt/homebrew/bin/clang-format",
-    "C_Cpp.clang_format_style": "file:/Users/george/.format/.clang-format",
-    "java.format.settings.url": "~/.format/java-format-config.xml",
-    "java.format.settings.profile": "style",
-    "[java]": {
-        "editor.defaultFormatter": "redhat.java"
+    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
+    "window.zoomLevel": -0.5,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#FFD700",
+        "editorBracketHighlight.foreground2": "#DA70D6",
+        "editorBracketHighlight.foreground3": "#87CEFA"
     },
-    "rust-analyzer.rustfmt.rangeFormatting.enable": true,
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
-        "editor.formatOnSave": true
-    },
-    "hexeditor.columnWidth": 16,
-    "hexeditor.showDecodedText": true,
-    "hexeditor.defaultEndianness": "little",
-    "hexeditor.inspectorType": "aside",
-    "sql-formatter.dialect": "sql",
-    "sql-formatter.linesBetweenQueries": 1
+    "workbench.colorTheme": "Aura Dark",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "yaml.customTags": [
+        "!And sequence",
+        "!And",
+        "!Base64",
+        "!Cidr",
+        "!Equals sequence",
+        "!Equals",
+        "!FindInMap sequence",
+        "!FindInMap",
+        "!GetAZs",
+        "!GetAtt",
+        "!If sequence",
+        "!If",
+        "!ImportValue sequence",
+        "!ImportValue",
+        "!Join sequence",
+        "!Join",
+        "!Not sequence",
+        "!Not",
+        "!Or sequence",
+        "!Or",
+        "!Ref",
+        "!Select sequence",
+        "!Select",
+        "!Split sequence",
+        "!Split",
+        "!Sub sequence",
+        "!Sub"
+    ]
 }
