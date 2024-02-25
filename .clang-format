@@ -2,7 +2,6 @@
 BasedOnStyle: Mozilla
 IndentWidth: 4
 AlignAfterOpenBracket: Align
-AlignArrayOfStructures: Left
 AlignConsecutiveAssignments: None
 AlignConsecutiveBitFields: None
 AlignConsecutiveDeclarations: None
@@ -20,6 +19,7 @@ AllowShortIfStatementsOnASingleLine: WithoutElse
 AllowShortLambdasOnASingleLine: None
 AllowShortLoopsOnASingleLine: false
 AlwaysBreakBeforeMultilineStrings: false
+BreakArrays: false
 BreakBeforeBraces: Custom
 BraceWrapping:
     AfterCaseLabel: true
@@ -40,3 +40,5 @@ BraceWrapping:
     SplitEmptyFunction: true
     SplitEmptyRecord: true
     SplitEmptyNamespace: true
+ContinuationIndentWidth: 4
+SortIncludes: false

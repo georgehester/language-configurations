@@ -1,4 +1,5 @@
 {
+    "notebook.formatOnSave.enabled": true,
     "[dockerfile]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
     },
@@ -15,7 +16,8 @@
         "editor.formatOnType": true
     },
     "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.inlayHints.enabled": "offUnlessPressed"
     },
     "[yaml]": {
         "editor.autoIndent": "advanced",
@@ -42,7 +44,7 @@
     "editor.detectIndentation": false,
     "editor.find.addExtraSpaceOnTop": true,
     "editor.fontFamily": "Monaspace Neon Var",
-    "editor.fontLigatures": "'ss01', 'ss03', 'ss07'",
+    //"editor.fontLigatures": "'ss01', 'ss03', 'ss07'",
     "editor.fontSize": 12,
     "editor.fontWeight": "600",
     "editor.formatOnSave": true,
@@ -88,10 +90,9 @@
         "editorBracketHighlight.foreground2": "#DA70D6",
         "editorBracketHighlight.foreground3": "#87CEFA"
     },
-    "workbench.colorTheme": "Aura Dark",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.preferredDarkColorTheme": "Aura Dark",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "yaml.customTags": [
@@ -122,5 +123,29 @@
         "!Split",
         "!Sub sequence",
         "!Sub"
-    ]
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "editor.rulers": [
+        80
+    ],
+    "workbench.editorAssociations": {
+        "*.plist": "default"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "notebook.lineNumbers": "on",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "workbench.colorTheme": "Aura Dark"
 }

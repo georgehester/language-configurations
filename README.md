@@ -1,27 +1,17 @@
-### Java
+# Language Configurations
 
-**File:** java-format.xml <br>
-**File Location:** Anywhere (Specifically `~/.format` for vscode settings) <br>
-**Options:** [Eclipse Formatter Constants](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.jdt.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fjdt%2Fcore%2Fformatter%2Fpackage-summary.html) [**Archived**](https://web.archive.org/web/20230416172329/https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.jdt.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fjdt%2Fcore%2Fformatter%2Fpackage-summary.html)
+## Java
 
-### C / C++
+The file `java-format.xml` can be placed anywhere. To abide by the VSCode settings and profile it should be put in the `~/.format` folder. The options for this file can be found [here](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.jdt.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fjdt%2Fcore%2Fformatter%2Fpackage-summary.html) and are archived [**here**](https://web.archive.org/web/20230416172329/https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.jdt.doc.isv%2Freference%2Fapi%2Forg%2Feclipse%2Fjdt%2Fcore%2Fformatter%2Fpackage-summary.html).
 
-**File:** .clang-format <br>
-**File Location:** Anywhere (Specifically `~/.format` for vscode settings) <br>
-**Options:** [Clang Format Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) [**Archived**](https://web.archive.org/web/20230401042727/https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
+## C / C++
 
-### Rust
+The file `.clang-format` can be placed anywhere. To abide by the VSCode settings and profile it should be put in the `~/.format` folder. The options for this file can be found [here](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) and are archived [**here**](https://web.archive.org/web/20230401042727/https://clang.llvm.org/docs/ClangFormatStyleOptions.html).
 
-**File:** .rustfmt.toml <br>
-**File Location:** In either the home directory `~` or the rustfmt config folder `~/.config/rustfmt` <br>
-**Options:** [Rustfmt Configuration](https://rust-lang.github.io/rustfmt/?version=v1.5.1) [**Archived**](https://web.archive.org/web/20230416173244/https://rust-lang.github.io/rustfmt/)
+## Rust
 
-### VSCode
+The file `.rustfmt.toml` can be placed in either the home directory `~` or the rustfmt configuration folder `~/.config/rustfmt`. The options for this file can be found [here](https://rust-lang.github.io/rustfmt/?version=v1.5.1) and are archived [**here**](https://web.archive.org/web/20230416173244/https://rust-lang.github.io/rustfmt/).
 
-**File:** settings.json <br>
-**File Location:** Place into VSCode settings location, file paths may need to be updated where required
+## VSCode
 
-**File:** extensions.sh <br>
-**Prerequisites:** `chmod u+x extensions.sh` to allow the current user to execute the file as a shell script <br>
-**Use:** To install all the extensions listed in the file run it using `./extensions.sh` <br>
-**Creation:** To generate this file from the current VSCode run `code --list-extensions | xargs -L 1 echo code --install-extension > extensions.sh`, a file called extensions.sh will be produced in the currect directory
+The VSCode settings are defined in two different files `settings.json` and `profile.code-profile`. The `profile.code-profile` profile can be imported into VSCode via the settings menu. The `settings.json` file can be copied into the VSCode settings.
